@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+ML\
+*.csv
+venv/
+env/
