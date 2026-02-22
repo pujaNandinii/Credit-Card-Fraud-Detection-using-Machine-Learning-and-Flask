@@ -27,7 +27,7 @@ The web interface allows users to input transaction details and receive real-tim
 ## Installation & Setup
 
 ### Clone the Repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/your-username/your-repo-name.git<br>
 cd credit_card_fraud_detection
 
 ### 2️⃣ Create Virtual Environment
