@@ -30,21 +30,21 @@ The web interface allows users to input transaction details and receive real-tim
 git clone https://github.com/your-username/your-repo-name.git<br>
 cd credit_card_fraud_detection
 
-### 2️⃣ Create Virtual Environment
+### Create Virtual Environment
 conda create -n fraudenv python=3.8<br>
 conda activate fraudenv
 
-### 3️⃣ Install Dependencies
+### Install Dependencies
 pip install -r requirements.txt
 
-### 4️⃣ Run the Application
+### Run the Application
 python app.py<br>
 Open your browser and go to:<br>
 http://127.0.0.1:5000/
 
 ---
 
-## 📊 Model Information
+## Model Information
 
 - Type: Supervised Learning
 - Problem: Binary Classification
@@ -53,5 +53,26 @@ http://127.0.0.1:5000/
   - 1 → Fraudulent Transaction
 
 ---
+
+## Input Requirements
+
+The trained model expects 30 input features corresponding to the transaction dataset.
+
+To get a prediction result:
+
+1. Enter all 30 feature values
+
+2. These represent the transaction features used by the trained machine learning model
+
+3. After entering all 30 values, click the Predict button
+
+4. Receive a binary classification result:
+
+0 → Legitimate Transaction
+
+1 → Fraudulent Transaction
+
+Incomplete input will not generate a valid prediction.
+
 
 
