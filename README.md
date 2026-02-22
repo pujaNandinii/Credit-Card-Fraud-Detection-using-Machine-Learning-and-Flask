@@ -31,15 +31,15 @@ git clone https://github.com/your-username/your-repo-name.git
 cd credit_card_fraud_detection
 
 ### 2️⃣ Create Virtual Environment
-conda create -n fraudenv python=3.8
+conda create -n fraudenv python=3.8<br>
 conda activate fraudenv
 
 ### 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
 ### 4️⃣ Run the Application
-python app.py
-Open your browser and go to:
+python app.py<br>
+Open your browser and go to:<br>
 http://127.0.0.1:5000/
 
 ---
